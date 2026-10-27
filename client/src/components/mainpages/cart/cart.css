@@ -1,0 +1,128 @@
+.cart_container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cart_items {
+    flex: 2;
+    min-width: 320px;
+}
+
+.cart_card {
+    display: flex;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    align-items: center;
+    gap: 20px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.cart_card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cart_info {
+    flex: 1;
+}
+
+.cart_info h3 {
+    text-transform: capitalize;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.cart_code {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.cart_price {
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.amount button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    font-size: 1.2rem;
+    line-height: 1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.amount span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.item_subtotal {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: crimson;
+    cursor: pointer;
+}
+
+.cart_summary {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fafafa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.cart_summary h3 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.summary_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.total_row {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111;
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+    margin-top: 12px;
+}
+

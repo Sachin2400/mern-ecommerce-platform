@@ -1,0 +1,26 @@
+.filter_menu{
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.filter_menu select,
+.filter_menu input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px;
+}
+

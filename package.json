@@ -1,0 +1,30 @@
+{
+  "name": "mern-ecommerce-app",
+  "version": "1.0.0",
+  "description": "Full-Featured Production-Ready MERN Stack E-Commerce Platform",
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "client": "npm --prefix client start",
+    "client:build": "npm --prefix client run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "ecommerce",
+    "jwt",
+    "fullstack"
+  ],
+  "author": "Sachin",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
